@@ -21,7 +21,7 @@ makeCacheMatrix <- function(x = matrix()) {
 } # end function 
 
 # retieve or calculate mean 
-cachesolve <- function(x, ...) {
+cacheSolve <- function(x, ...) {
   inv <- x$getinv()   # retrieve cached inverse
   
   if(!is.null(inv)) {    # if mean already cached 
